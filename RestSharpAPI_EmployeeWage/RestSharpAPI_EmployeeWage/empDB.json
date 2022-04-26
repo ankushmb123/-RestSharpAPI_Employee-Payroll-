@@ -1,0 +1,26 @@
+create database Retriving_empRecords
+
+{
+  "employees":[
+    {
+      "id": 1,
+      "name": "raj",
+      "salary": "10000"
+    },
+    {
+      "id": 2,
+      "name": "Ankush",
+      "salary": "8000"
+    },
+    {
+      "id": 3,
+      "name": "Dharaj",
+      "salary": "6000"
+    },
+    {
+      "id": 4,
+      "name": "rani",
+      "salary": "3000" 
+    }
+  ]
+}
