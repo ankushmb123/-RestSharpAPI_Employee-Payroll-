@@ -26,3 +26,8 @@ RStep 4: Adding New Employee Lisa.Here We notice HTTP Method POST is used as wel
 RStep 5: for Update a Salary of Lisa.
 
 --- curl -XPUT -H "Content-Type:application/json" -d'{"name":"Lisa","salary":"8000"}' "http://localhost:4000/employee/update/4" ---
+
+
+RStep 6: For Deleting Records of Lisa.
+
+--- curl -XDELETE -H "Content-Type:application/json" "http://localhost:4000/employee/delete/4" ---

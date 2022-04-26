@@ -1,5 +1,4 @@
 {
-
   "/employees/list": "/employees",
   "/employees/get/:id": "/employees/:id",
   "/employees/create": "/employees",
