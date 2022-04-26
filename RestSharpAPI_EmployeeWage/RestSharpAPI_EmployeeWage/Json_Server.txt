@@ -21,4 +21,8 @@ Rstep 3: Get all Employees using curl command
 
 RStep 4: Adding New Employee Lisa.Here We notice HTTP Method POST is used as well as using-d option JSON is passed in the body
 
--- curl -X POST-H "Content-Type:application/json" -d'{"name":"Lisa","salary":"2000"}' "http://localhost:4000/employee/create"  --
+--- curl -X POST-H "Content-Type:application/json" -d'{"name":"Lisa","salary":"2000"}' "http://localhost:4000/employee/create" ---
+
+RStep 5: for Update a Salary of Lisa.
+
+--- curl -XPUT -H "Content-Type:application/json" -d'{"name":"Lisa","salary":"8000"}' "http://localhost:4000/employee/update/4" ---
