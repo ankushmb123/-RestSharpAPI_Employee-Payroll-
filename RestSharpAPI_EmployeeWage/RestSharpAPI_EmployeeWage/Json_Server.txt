@@ -1,0 +1,24 @@
+RInstalling JSON Server RG:-
+
+--npm install -g json-server--
+
+RCheck JSON Server version RG:-
+
+--json-server -v --
+
+RStep 1: Create empDB.json file.
+
+   touch empDB.json
+   cat empDB.json
+   nano empDB.json
+   cat empDB.json
+
+RStep 2: Run JSON server.This will create REST API for empDB
+-- json-server--watch empDB.json --
+
+Rstep 3: Get all Employees using curl command
+-- curl -X GET -H "Content-Type:application/json" "http://localHost:4000/employee/list" --
+
+RStep 4: Adding New Employee Lisa.Here We notice HTTP Method POST is used as well as using-d option JSON is passed in the body
+
+-- curl -X POST-H "Content-Type:application/json" -d'{"name":"Lisa","salary":"2000"}' "http://localhost:4000/employee/create"  --

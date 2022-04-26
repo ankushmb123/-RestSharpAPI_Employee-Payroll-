@@ -1,5 +1,3 @@
-create database Retriving_empRecords
-
 {
   "employees":[
     {
@@ -20,7 +18,12 @@ create database Retriving_empRecords
     {
       "id": 4,
       "name": "rani",
-      "salary": "3000" 
+      "salary": "3000"
+    },
+    {
+      "id": 5,
+      "name": "Pankaj",
+      "salary": "2000"
     }
   ]
 }
